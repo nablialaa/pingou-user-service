@@ -1,0 +1,52 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.vagrant/
+/.phpunit.cache/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.lock
+
+# Vite
+.vite/
+
+# Misc
+*.log
+
+# Tests
+coverage/
+
+# Cache
+bootstrap/cache/
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Laravel Mix
+/public/hot
+/public/mix-manifest.json
+
+# Laravel Telescope
+storage/telescope
+
+# Laravel Horizon
+storage/horizon
+
+# Laravel Nova
+nova/
